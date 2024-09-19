@@ -113,6 +113,12 @@ body {
   display: flex;
   flex-direction: column;
 }
+.info-wrapper{
+  margin: 3rem 0;
+  padding: 2rem 0;
+background:url(/info.jpg)
+
+}
 .hours{
 display: flex;
 flex-direction: column;
@@ -130,9 +136,16 @@ margin-top: 1rem;
   width: 15rem;
 }
 .days {
- color: #ddd
+ color: red
 }
-.info-wrapper{
+.days{
+  display: flex;
+  justify-content: space-between;
+  width: 15rem;
+}
+
+}
+.info{
   background-color:red;
 }
 @media only screen and (min-width: 600px) {
