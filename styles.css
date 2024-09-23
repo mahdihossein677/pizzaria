@@ -66,12 +66,13 @@ body {
   background-color: transparent;
   color: red;
 }
-.Buttom {
+.Buttom, .Buttom-inverted{
+  width: fit-content;
  display: inline-block;
   border: solid #ff3030;
   text-decoration: none;
   background-color: #ff3030;
-  color: #fff;
+  color: green
   padding: 1rem;
   transition: all 0.2s ease-in-out;
   width: fit-content;
