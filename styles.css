@@ -76,13 +76,21 @@ body {
   color: red;
 }
 .Button,
-.buttom-inverted {
+.button-inverted {
   width: fit-content;
   display: inline-block;
   border: solid #ff6262;
   text-decoration: none;
   background-color: green;
   padding: 1rem;
+}
+.button-inverted {
+  background-color: transparent;
+  color: var(--primary-color);
+}
+.button-inverted:hover {
+  background-color: var(--primary-color);
+  color: white;
 }
 .subtitle {
   margin-top: 40px;
@@ -143,16 +151,12 @@ body {
   width: 15rem;
 }
 .days {
-  color: green;
+  color: white;
 }
 .days {
   display: flex;
   justify-content: space-between;
   width: 15rem;
-}
-
-.info {
-  background-color: red;
 }
 .contact-image {
   width: 100%;
@@ -198,6 +202,14 @@ body {
   }
   .about-text {
     font-size: 1rem;
+  }
+  .contact-content {
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .contact-image {
+    width: 60%;
   }
 }
 @media only screen and (min-width: 1000px) {
