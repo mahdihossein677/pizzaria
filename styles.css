@@ -4,10 +4,6 @@
   margin: 0;
   padding: 0;
 }
-.platzhalter {
-  height: 300vh;
-}
-
 body {
   font-family: "Roboto", sans-serif;
   background-color: #1a1a1a;
@@ -48,7 +44,6 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
 }
-
 .title {
   font-size: 3rem;
   line-height: 3rem;
@@ -71,17 +66,22 @@ body {
   max-width: 85%;
   margin: 0 auto;
 }
-.Button :hover {
+.Button:hover {
   background-color: transparent;
   color: red;
 }
-.Button,
+.Button {
+  background-color: red;
+  color: #fff;
+  width: fit-content;
+}
+.button,
 .button-inverted {
   width: fit-content;
   display: inline-block;
   border: solid #ff6262;
   text-decoration: none;
-  background-color: green;
+  background-color: red;
   padding: 1rem;
 }
 .button-inverted {
@@ -183,6 +183,19 @@ body {
 }
 .contact-image {
   width: 100%;
+}
+.footeritem {
+  text-decoration: none;
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: 01rem;
+  transition: all0.2s ease-in-out;
+}
+.footer-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 3rem;
 }
 
 @media only screen and (min-width: 600px) {
