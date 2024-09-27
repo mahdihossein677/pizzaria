@@ -7,9 +7,9 @@
 body {
   font-family: "Roboto", sans-serif;
   background-color: black;
-  color: #fff;
+  color: #ad9567;
   --primary-color: red;
-  --text-color: white;
+  --text-color: #ad9567;
 }
 .nav {
   display: flex;
@@ -55,8 +55,8 @@ body {
   text-decoration: none;
   margin-top: 4rem;
   color: #fff;
-  border: solid red;
-  background-color: #ff3030;
+  border: solid black;
+  background-color: #9b7b3e;
   padding: 1rem 2rem;
   transition: all 0.2s ease-in-out;
 }
@@ -68,12 +68,12 @@ body {
   max-width: 85%;
   margin: 0 auto;
 }
-.Button:hover {
+.button:hover {
   background-color: transparent;
-  color: red;
+  color: white;
 }
-.Button {
-  background-color: red;
+.button {
+  background-color: #ad9567;
   color: #fff;
   width: fit-content;
 }
@@ -81,18 +81,19 @@ body {
 .button-inverted {
   width: fit-content;
   display: inline-block;
-  border: solid #ff6262;
+  border: solid black;
   text-decoration: none;
-  background-color: red;
+  background-color: #ad9567;
   padding: 1rem;
 }
 .button-inverted {
-  background-color: transparent;
-  color: var(--primary-color);
+  background-color: #ad9567;
+  color: white;
 }
 .button-inverted:hover {
-  background-color: var(--primary-color);
+  background-color: #ad9567;
   color: white;
+  background-color: transparent;
 }
 .subtitle {
   margin-top: 40px;
@@ -133,7 +134,8 @@ body {
 .info-wrapper {
   margin: 3rem 0;
   padding: 2rem 0;
-  background: url(images/persisches2.jpeg);
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url(images/persisches2.jpeg);
 }
 .hours {
   display: flex;
@@ -186,6 +188,9 @@ body {
 .contact-image {
   width: 100%;
 }
+.footer-item {
+  color: #9b7b3e;
+}
 .footer {
   display: flex;
   flex-direction: column;
@@ -208,7 +213,7 @@ body {
 }
 .footer-copyright {
   margin-top: 1rem;
-  color: var(--primary-color);
+  color: white;
 }
 
 @media only screen and (min-width: 600px) {
@@ -244,7 +249,7 @@ body {
     justify-content: space-between;
   }
   .contact-image {
-    width: 60%;
+    width: 40%;
   }
 }
 @media only screen and (min-width: 1000px) {
